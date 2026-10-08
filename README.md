@@ -6,7 +6,10 @@
 
 ## 在线阅读
 
-部署在 Netlify（完成部署后会更新链接）。
+- **站点**：https://rust-solana-course.netlify.app
+- **仓库**：https://github.com/JazzOne/rust-solana-course
+
+> 若站点尚未显示课程内容：请到 [Netlify 项目页](https://app.netlify.com/projects/rust-solana-course) → **Site configuration → Build & deploy → Continuous deployment**，将本 GitHub 仓库 `JazzOne/rust-solana-course` 连接到站点。连接后每次 push `main` 会自动构建 VitePress 并发布。
 
 ## 本地开发
 
@@ -20,6 +23,8 @@ npm run docs:dev
 ```bash
 npm run docs:build
 ```
+
+发布目录：`docs/.vitepress/dist`（已在 `netlify.toml` 中配置）。
 
 ## 课程结构
 
